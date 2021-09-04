@@ -5,6 +5,7 @@
 * 강민철(Python)
 * 박주윤(Python)
 * 이다예(Python)
+* 이종준(Python)
 * 이현홍(Python)
 * 허영민(Python)
 
