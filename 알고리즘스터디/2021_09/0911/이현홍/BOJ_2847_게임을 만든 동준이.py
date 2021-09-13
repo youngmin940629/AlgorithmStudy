@@ -2,8 +2,8 @@ t = int(input())
 l = []
 
 for i in range(t):
-    l.append(int(input()))
-l.reverse()
+    l.append(int(input()))          # l = [int(input())] + l
+l.reverse()                         # 
 cnt = 0
 
 for i in range(len(l)-1):
