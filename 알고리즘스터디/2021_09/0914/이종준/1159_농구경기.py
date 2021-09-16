@@ -35,7 +35,7 @@ for i in range(N-1):
         continue
     elif first_chrs[i] == first_chrs[i+1]:
         cnt += 1
-        if cnt  == 5:
+        if cnt == 5:
             my_string += first_chrs[i]
             cnt = 1
     else:
