@@ -1,7 +1,3 @@
-import sys
-sys.stdin = open('sample.txt', 'r')
-
-
 M, N, H = map(int, input().split())
 arr = [[[0] for _ in range(N)] for _ in range(H)]
 Q = [0] * M * N * H
