@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('sample.txt', 'r')
-
 M, N = map(int, input().split())
 arr = [0] * N
 for n in range(N):
