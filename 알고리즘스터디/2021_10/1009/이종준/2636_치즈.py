@@ -41,3 +41,4 @@ while True:
     hour += 1
 print(hour)
 print(cnt_list[-2])
+print(cnt_list)
