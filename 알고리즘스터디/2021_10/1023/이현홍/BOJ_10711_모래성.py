@@ -1,7 +1,6 @@
 #import sys
 #sys.stdin = open('s.txt','r')
 
-# 효율 개박살 통과 ㅋㅋ
 dr = [0, 1, 0, -1, 1, -1, 1, -1]
 dc = [1, 0, -1, 0, 1, -1, -1, 1]
 def wave(r, c, n):
