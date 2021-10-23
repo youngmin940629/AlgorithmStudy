@@ -2,6 +2,7 @@ import sys
 sys.stdin = open('input.txt', 'r')
 from collections import deque
 
+# 우하좌상
 dr = [0, 1, 0, -1]
 dc = [1, 0, -1, 0]
 

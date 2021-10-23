@@ -27,6 +27,7 @@ def dfs(v, target, k):
 N, K = map(int, input().split())
 arr = []
 arr.append([0] * K)
+
 for _ in range(N):
     arr.append(list(map(int, input())))
 A, B = map(int, input().split())
