@@ -1,6 +1,6 @@
 dr=[1, 0, -1, 0, 1, 1, -1, -1]
 dc=[0, 1, 0, -1, 1, -1, 1, -1]
-def Queen(r, c):
+def Queen(r, c):                        # 8방향으로 visit 체크하는 함수
     if arr[r][c]: n = -1
     else: n = 1
     arr[r][c] += n
@@ -18,7 +18,7 @@ def spot(n=0):
         ans += 1
     else:
         for i in range(N):
-            if arr[n][i] == 0:
+            if arr[n][i] == 0:      # 퀸을 놓을 수 있는 자리면 체크 함수 호출
                 Queen(n, i)
                 spot(n+1)
                 Queen(n, i)
