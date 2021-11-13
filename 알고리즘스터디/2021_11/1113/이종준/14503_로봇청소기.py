@@ -54,11 +54,15 @@ def bfs():
 N, M = map(int, input().split())
 r, c, dir = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
-
+# 청소한 구역 수를 저장할 변수 ans
 ans = 1
+
+# 방문체크용 배열 초기화
 visited = [[0] * M for _ in range(N)]
+
 q = deque()
 visited[r][c] = 1
 q.append((r, c, dir))
 bfs()
+
 print(ans)
