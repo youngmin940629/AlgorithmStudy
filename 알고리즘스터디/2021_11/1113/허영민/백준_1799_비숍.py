@@ -43,4 +43,4 @@ dy = [1, 1, -1, -1]
 w_rst = b_rst = 0
 bishop(0, 0, 0)
 bishop(1, 0, 1)
-print(w_rst + b_rst)
+print(w_rst+b_rst)
