@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('sample.txt', 'r')
-
 paper = {0:5, 1:5, 2:5, 3:5, 4:5}
 
 arr = [list(map(int, input().split())) for _ in range(10)]
