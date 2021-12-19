@@ -9,6 +9,7 @@ dr = [0, 1, 0, -1]
 dc = [1, 0, -1, 0]
 # 최종 정답
 ans = 0
+
         
 # 바이러스 퍼뜨리면서 안전지대 최대값 찾기
 def bfs():
@@ -44,7 +45,8 @@ def bfs():
 def wall(cnt):
     if cnt == 3:
         bfs()
-        return    
+        return
+    # 조합으로 바꿔서 해보기    
     for i in range(N):
         for j in range(M):
             if my_map[i][j] == 0:
