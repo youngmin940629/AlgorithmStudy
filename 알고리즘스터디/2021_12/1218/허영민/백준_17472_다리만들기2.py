@@ -59,7 +59,6 @@ for x in range(island_num):
 edge.sort()
 cnt = 0
 p = [i for i in range(island_num)]
-
 def find_set(x):
     while x != p[x]:
         x = find_set(p[x])
