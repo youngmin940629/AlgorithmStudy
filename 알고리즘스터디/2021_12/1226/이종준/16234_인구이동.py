@@ -1,6 +1,8 @@
 # python3 시간초과 / pypy3 1212ms
 
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 N, L, R = map(int, input().split())
 data = [list(map(int, input().split())) for _ in range(N)]
