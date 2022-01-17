@@ -3,6 +3,7 @@ def w(a, b, c):
         return 1
     if a > 20 or b > 20 or c > 20:
         return w(20, 20, 20)
+    # 여기에서 걸리게끔
     if dp_list[a][b][c]:
         return dp_list[a][b][c]
     if a < b and b < c:
