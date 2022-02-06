@@ -5,9 +5,9 @@ arr[0] = 0
 def circle(arr):
     lst = [0] * 10
     for i in range(10):
-        if 0 <= i-1:
+        if 0 < i:
             lst[i] += arr[i-1]
-        if i+1 < 10:
+        if i < 9:
             lst[i] += arr[i+1]
     return lst
 
